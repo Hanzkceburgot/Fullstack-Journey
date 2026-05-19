@@ -49,3 +49,9 @@ pBaru.appendChild(pBaruText)
 const SecA = document.getElementById('a')
 SecA.appendChild(pBaru)
 
+const ul = document.querySelector('section#b ul')
+const liBaru = document.createElement('li')
+const teksLi = document.createTextNode("Gomennasai okka san")
+liBaru.appendChild(teksLi)
+
+ul.insertBefore(liBaru,li2)
