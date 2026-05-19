@@ -1,0 +1,49 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eaeaea;
+    color: 333;
+}
+div{
+    width: 1000px;
+    height: auto;
+    border: 1px solid;
+    margin:auto ;
+    padding-left: 10px;
+    margin-left: 450px;
+    background-color: white;
+}
+div nav ul li{
+    display: inline-block;
+}
+div{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+}
+div nav ul{
+    display: inline-block;
+}
+div ul li a{
+    display: inline-block;
+}
+#Lilith{
+    width: 1000px;
+    height: auto;
+    margin-left:-10px;
+    
+}
+ul{
+    padding: -10px;
+}
+div main p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin-left: -10px;
+}

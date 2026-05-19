@@ -1,0 +1,61 @@
+/* Use clearfix on the container of floating elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+    border: 1px solid black;
+    background-color: white; /* Matches the image background */
+} 
+
+header, nav {
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#lilith {
+    width: 100%; /* Ensures it fills the 960px container */
+    display: block;
+}
+
+/* FIX: Float main left and keep rightcontent right */
+.left {
+    width: 600px;
+    float: left;
+    padding: 20px;
+}
+
+.rightcontent {
+    float: right;
+    width: 280px; /* Reduced slightly to account for padding/margins */
+    padding: 20px;
+    font-size: 0.9em;
+}
+.rightcontent img{
+    margin: 15px;
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+footer {
+    text-align: center;
+    clear: both; /* Ensures footer stays below floats */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
