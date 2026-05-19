@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+    <style>
+        body{
+            text-align: center; 
+        }
+        .nightMode{
+            background-color: black;
+            color: white;
+        }.kotak{
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }.merah{
+            background: red;
+        }.hijau{
+            background: green;
+        }.biru{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bermain dengan warna</h1>
+    <button id="change" type="button">Ubah warna</button>
+    <br><br>
+    
+    <div class="kotak merah"></div>
+    <input type="range" name="rSlider" max="255">
+
+    <div class="kotak hijau"></div>
+    <input type="range" name="gSlider" min="0">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="bSlider" min="0" max="255">
+
+    <script src="script.js"></script>
+</body>
+</html>
