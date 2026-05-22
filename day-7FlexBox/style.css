@@ -1,0 +1,36 @@
+.container{
+    width: 600px;
+    height: 150px;
+    border: 5px solid grey;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    align-items: flex-start
+}
+/* .container::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+.container div{
+    /* width: 100px;
+    height: 100px; */
+    margin: 2px;
+    background-color: lightcoral;
+    flex: 1;
+}
+/* .satu{order: 3;}
+.dua{order: 4;}
+.tiga{order: 1;}
+.empat{order: 2;} */
+
+/* .satu{flex} */
+.container .dua{
+    flex: 5;
+    align-self:stretch;
+}
