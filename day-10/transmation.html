@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <style>
+        /* img{
+            display: flex;
+            margin: auto ;
+            filter:brightness(10%) blur(10px)
+        } */
+         /* Transform */
+         body{
+            padding: 0;
+            margin: 0;
+         }.container{
+            border: 2px solid black;
+            padding: 2px;
+            margin: 50px auto;
+         }
+         .kotak1{transition:all 1s ease;}
+         .kotak2{transition:all 1s ease-in;}
+         .kotak3{transition:all 1s ease-out;}
+         .kotak4{transition:all 1s ease-in-out;}
+         .kotak5{transition:all 1s linear;}
+         .kotak{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            /* margin: 50px auto; */
+            /* Transition */
+            transition: 1s;
+            text-align: center;
+            line-height: 100px;
+         }.container:hover .kotak{
+            /* transform: scale(2); */
+            /* transform: rotate(90deg); */
+            /* transform:skew(45deg); */
+            /* transform: translate(100px,200px); */
+            margin-left: 800px;
+         }
+         p{
+            text-align: center;
+         }
+         /* input:focus{
+            outline: 2px solid blue;
+         } */
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+      <div class="kotak kotak1">ease</div>
+      <div class="kotak kotak2">ease-in</div>
+      <div class="kotak kotak3">ease-out</div>
+      <div class="kotak kotak4">ease-in-out</div>
+      <div class="kotak kotak5">linear</div>
+   </div>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente illo iste perferendis eligendi accusantium similique. Saepe suscipit placeat ratione voluptatibus</p> -->
+    <!-- <img src="../day-9Latihan/img/1.jfif" alt=""> -->
+     <!-- <input type="text"> -->
+</body>
+</html>
